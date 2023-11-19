@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  margin-right: 28rem;
+  margin-left: 28rem;
+}
+
+img {
+  height: 30rem;
+}
+
+.text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.top-heading {
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+}
+
+.main-heading {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  margin-right: 5rem;
+}
+
+p {
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  line-height: 2rem;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.discounted-price {
+  display: inline-block;
+  color: hsl(158, 36%, 37%);
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Fraunces", serif;
+}
+
+s {
+  margin-left: 20px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(30, 38%, 92%);
+  border: 0;
+  height: 3rem;
+  width: 16rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-icon {
+  height: 15px;
+  margin-right: 10px;
+}
